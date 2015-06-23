@@ -1,0 +1,473 @@
+
+chdir(/usr/local/share/vim)
+fchdir() to previous dir
+could not source "$VIM/vimrc"
+chdir(/root)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+Searching for "ftoff.vim" in "/root/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftoff.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftoff.vim"
+Searching for "/usr/local/share/vim/vim74/ftoff.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 21: sourcing "/usr/local/share/vim/vim74/ftoff.vim"
+Error detected while processing /usr/local/share/vim/vim74/ftoff.vim:
+line   11:
+E216: No such group or event: filetypedetect *
+finished sourcing /usr/local/share/vim/vim74/ftoff.vim
+continuing in /root/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/ftoff.vim"
+Searching for "/root/.vim/after/ftoff.vim"
+Searching for "autoload/vundle.vim" in "/root/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim"
+Searching for "/root/.vim/autoload/vundle.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/vundle.vim"
+Searching for "/usr/local/share/vim/vim74/autoload/vundle.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/vundle.vim"
+Searching for "/root/.vim/after/autoload/vundle.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/autoload/vundle.vim"
+chdir(/root/.vim/bundle/Vundle.vim/autoload)
+fchdir() to previous dir
+line 23: sourcing "/root/.vim/bundle/Vundle.vim/autoload/vundle.vim"
+finished sourcing /root/.vim/bundle/Vundle.vim/autoload/vundle.vim
+continuing in /root/.vimrc
+Searching for "autoload/vundle/config.vim" in "/root/.vim,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim"
+Searching for "/root/.vim/autoload/vundle/config.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/vundle/config.vim"
+Searching for "/usr/local/share/vim/vim74/autoload/vundle/config.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/vundle/config.vim"
+Searching for "/root/.vim/after/autoload/vundle/config.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/autoload/vundle/config.vim"
+chdir(/root/.vim/bundle/Vundle.vim/autoload/vundle)
+fchdir() to previous dir
+line 4: sourcing "/root/.vim/bundle/Vundle.vim/autoload/vundle/config.vim"
+finished sourcing /root/.vim/bundle/Vundle.vim/autoload/vundle/config.vim
+continuing in function vundle#begin..vundle#rc
+Searching for "colors/koehler.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/colors/koehler.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/colors/koehler.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/colors/koehler.vim"
+Searching for "/root/.vim/bundle/L9/colors/koehler.vim"
+Searching for "/root/.vim/bundle/command-t/colors/koehler.vim"
+Searching for "/root/.vim/bundle/plugin/colors/koehler.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/colors/koehler.vim"
+Searching for "/root/.vim/bundle/newL9/colors/koehler.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/colors/koehler.vim"
+Searching for "/usr/local/share/vim/vimfiles/colors/koehler.vim"
+Searching for "/usr/local/share/vim/vim74/colors/koehler.vim"
+chdir(/usr/local/share/vim/vim74/colors)
+fchdir() to previous dir
+line 59: sourcing "/usr/local/share/vim/vim74/colors/koehler.vim"
+finished sourcing /usr/local/share/vim/vim74/colors/koehler.vim
+continuing in /root/.vimrc
+chdir(/usr/local/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 79: sourcing "/usr/local/share/vim/vim74/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/syntax/synload.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/syntax/synload.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/syntax/synload.vim"
+Searching for "/root/.vim/bundle/L9/syntax/synload.vim"
+Searching for "/root/.vim/bundle/command-t/syntax/synload.vim"
+Searching for "/root/.vim/bundle/plugin/syntax/synload.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/syntax/synload.vim"
+Searching for "/root/.vim/bundle/newL9/syntax/synload.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/syntax/synload.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/local/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/local/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/local/share/vim/vim74/syntax/synload.vim"
+Searching for "colors/koehler.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/colors/koehler.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/colors/koehler.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/colors/koehler.vim"
+Searching for "/root/.vim/bundle/L9/colors/koehler.vim"
+Searching for "/root/.vim/bundle/command-t/colors/koehler.vim"
+Searching for "/root/.vim/bundle/plugin/colors/koehler.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/colors/koehler.vim"
+Searching for "/root/.vim/bundle/newL9/colors/koehler.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/colors/koehler.vim"
+Searching for "/usr/local/share/vim/vimfiles/colors/koehler.vim"
+Searching for "/usr/local/share/vim/vim74/colors/koehler.vim"
+chdir(/usr/local/share/vim/vim74/colors)
+fchdir() to previous dir
+line 19: sourcing "/usr/local/share/vim/vim74/colors/koehler.vim"
+Searching for "syntax/syncolor.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/L9/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/command-t/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/plugin/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/newL9/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/local/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 7: sourcing "/usr/local/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/local/share/vim/vim74/colors/koehler.vim
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/root/.vim/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/L9/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/command-t/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/plugin/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/newL9/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/L9/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/command-t/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/plugin/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/newL9/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/local/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 8: sourcing "/usr/local/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/local/share/vim/vim74/colors/koehler.vim
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/root/.vim/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/L9/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/command-t/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/plugin/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/newL9/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/L9/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/command-t/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/plugin/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/newL9/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/local/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/local/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 10: sourcing "/usr/local/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/local/share/vim/vim74/colors/koehler.vim
+Searching for "/usr/local/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/root/.vim/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/L9/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/command-t/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/plugin/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/newL9/after/syntax/syncolor.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/syntax/syncolor.vim"
+finished sourcing /usr/local/share/vim/vim74/colors/koehler.vim
+continuing in /usr/local/share/vim/vim74/syntax/synload.vim
+finished sourcing /usr/local/share/vim/vim74/syntax/synload.vim
+continuing in /usr/local/share/vim/vim74/syntax/syntax.vim
+Searching for "filetype.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/filetype.vim"
+Searching for "/root/.vim/bundle/L9/filetype.vim"
+Searching for "/root/.vim/bundle/command-t/filetype.vim"
+Searching for "/root/.vim/bundle/plugin/filetype.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/filetype.vim"
+Searching for "/root/.vim/bundle/newL9/filetype.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/filetype.vim"
+Searching for "/usr/local/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/share/vim/vim74/filetype.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 25: sourcing "/usr/local/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/L9/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/command-t/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/plugin/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/newL9/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vim74/ftdetect/*.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/root/.vim/after/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/L9/after/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/command-t/after/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/plugin/after/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/newL9/after/ftdetect/*.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/local/share/vim/vim74/filetype.vim
+continuing in /usr/local/share/vim/vim74/syntax/syntax.vim
+Searching for "/usr/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/filetype.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/filetype.vim"
+Searching for "/root/.vim/bundle/L9/after/filetype.vim"
+Searching for "/root/.vim/bundle/command-t/after/filetype.vim"
+Searching for "/root/.vim/bundle/plugin/after/filetype.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/filetype.vim"
+Searching for "/root/.vim/bundle/newL9/after/filetype.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/filetype.vim"
+finished sourcing /usr/local/share/vim/vim74/syntax/syntax.vim
+continuing in /root/.vimrc
+Searching for "filetype.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/filetype.vim"
+Searching for "/root/.vim/bundle/L9/filetype.vim"
+Searching for "/root/.vim/bundle/command-t/filetype.vim"
+Searching for "/root/.vim/bundle/plugin/filetype.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/filetype.vim"
+Searching for "/root/.vim/bundle/newL9/filetype.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/filetype.vim"
+Searching for "/usr/local/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/local/share/vim/vim74/filetype.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 90: sourcing "/usr/local/share/vim/vim74/filetype.vim"
+finished sourcing /usr/local/share/vim/vim74/filetype.vim
+continuing in /root/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/filetype.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/filetype.vim"
+Searching for "/root/.vim/bundle/L9/after/filetype.vim"
+Searching for "/root/.vim/bundle/command-t/after/filetype.vim"
+Searching for "/root/.vim/bundle/plugin/after/filetype.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/filetype.vim"
+Searching for "/root/.vim/bundle/newL9/after/filetype.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/filetype.vim"
+Searching for "ftplugin.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/ftplugin.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/ftplugin.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/ftplugin.vim"
+Searching for "/root/.vim/bundle/L9/ftplugin.vim"
+Searching for "/root/.vim/bundle/command-t/ftplugin.vim"
+Searching for "/root/.vim/bundle/plugin/ftplugin.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/ftplugin.vim"
+Searching for "/root/.vim/bundle/newL9/ftplugin.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/ftplugin.vim"
+Searching for "/usr/local/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/local/share/vim/vim74/ftplugin.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 90: sourcing "/usr/local/share/vim/vim74/ftplugin.vim"
+finished sourcing /usr/local/share/vim/vim74/ftplugin.vim
+continuing in /root/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/root/.vim/after/ftplugin.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/ftplugin.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/ftplugin.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/ftplugin.vim"
+Searching for "/root/.vim/bundle/L9/after/ftplugin.vim"
+Searching for "/root/.vim/bundle/command-t/after/ftplugin.vim"
+Searching for "/root/.vim/bundle/plugin/after/ftplugin.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/ftplugin.vim"
+Searching for "/root/.vim/bundle/newL9/after/ftplugin.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/ftplugin.vim"
+Searching for "indent.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/indent.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/indent.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/indent.vim"
+Searching for "/root/.vim/bundle/L9/indent.vim"
+Searching for "/root/.vim/bundle/command-t/indent.vim"
+Searching for "/root/.vim/bundle/plugin/indent.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/indent.vim"
+Searching for "/root/.vim/bundle/newL9/indent.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/indent.vim"
+Searching for "/usr/local/share/vim/vimfiles/indent.vim"
+Searching for "/usr/local/share/vim/vim74/indent.vim"
+chdir(/usr/local/share/vim/vim74)
+fchdir() to previous dir
+line 90: sourcing "/usr/local/share/vim/vim74/indent.vim"
+finished sourcing /usr/local/share/vim/vim74/indent.vim
+continuing in /root/.vimrc
+Searching for "/usr/local/share/vim/vimfiles/after/indent.vim"
+Searching for "/root/.vim/after/indent.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/indent.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/indent.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/indent.vim"
+Searching for "/root/.vim/bundle/L9/after/indent.vim"
+Searching for "/root/.vim/bundle/command-t/after/indent.vim"
+Searching for "/root/.vim/bundle/plugin/after/indent.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/indent.vim"
+Searching for "/root/.vim/bundle/newL9/after/indent.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/indent.vim"
+finished sourcing $HOME/.vimrc
+Searching for "plugin/**/*.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/plugin/**/*.vim"
+chdir(/root/.vim/bundle/vim-fugitive/plugin)
+fchdir() to previous dir
+sourcing "/root/.vim/bundle/vim-fugitive/plugin/fugitive.vim"
+Searching for "autoload/fugitive.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/L9/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/command-t/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/plugin/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/newL9/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/autoload/fugitive.vim"
+Searching for "/usr/local/share/vim/vimfiles/autoload/fugitive.vim"
+Searching for "/usr/local/share/vim/vim74/autoload/fugitive.vim"
+Searching for "/usr/local/share/vim/vimfiles/after/autoload/fugitive.vim"
+Searching for "/root/.vim/after/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/L9/after/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/command-t/after/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/plugin/after/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/newL9/after/autoload/fugitive.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/autoload/fugitive.vim"
+not found in 'runtimepath': "autoload/fugitive.vim"
+finished sourcing /root/.vim/bundle/vim-fugitive/plugin/fugitive.vim
+Searching for "/root/.vim/bundle/L9/plugin/**/*.vim"
+chdir(/root/.vim/bundle/L9/plugin)
+fchdir() to previous dir
+sourcing "/root/.vim/bundle/L9/plugin/l9.vim"
+Searching for "autoload/l9.vim" in "/root/.vim,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/vim-fugitive,/root/.vim/bundle/L9,/root/.vim/bundle/command-t,/root/.vim/bundle/plugin,/root/.vim/bundle/sparkup/vim/,/root/.vim/bundle/newL9,/root/.vim/bundle/YouCompleteMe,/usr/local/share/vim/vimfiles,/usr/local/share/vim/vim74,/usr/local/share/vim/vimfiles/after,/root/.vim/after,/root/.vim/bundle/Vundle.vim,/root/.vim/bundle/Vundle.vim/after,/root/.vim/bundle/vim-fugitive/after,/root/.vim/bundle/L9/after,/root/.vim/bundle/command-t/after,/root/.vim/bundle/plugin/after,/root/.vim/bundle/sparkup/vim//after,/root/.vim/bundle/newL9/after,/root/.vim/bundle/YouCompleteMe/after"
+Searching for "/root/.vim/autoload/l9.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/autoload/l9.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/autoload/l9.vim"
+Searching for "/root/.vim/bundle/L9/autoload/l9.vim"
+chdir(/root/.vim/bundle/L9/autoload)
+fchdir() to previous dir
+line 8: sourcing "/root/.vim/bundle/L9/autoload/l9.vim"
+finished sourcing /root/.vim/bundle/L9/autoload/l9.vim
+continuing in /root/.vim/bundle/L9/plugin/l9.vim
+finished sourcing /root/.vim/bundle/L9/plugin/l9.vim
+Searching for "/root/.vim/bundle/command-t/plugin/**/*.vim"
+chdir(/root/.vim/bundle/command-t/plugin)
+fchdir() to previous dir
+sourcing "/root/.vim/bundle/command-t/plugin/command-t.vim"
+finished sourcing /root/.vim/bundle/command-t/plugin/command-t.vim
+Searching for "/root/.vim/bundle/plugin/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/sparkup/vim/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/newL9/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/plugin/**/*.vim"
+chdir(/root/.vim/bundle/YouCompleteMe/plugin)
+fchdir() to previous dir
+sourcing "/root/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim"
+                                                                   ycm_client_support.[so|pyd|dll] and ycm_core.[so|pyd|dll] not detected; you need to compile YCM before using it. Read the docs!
+finished sourcing /root/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim
+Searching for "/usr/local/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/local/share/vim/vim74/plugin/**/*.vim"
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/getscriptPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/getscriptPlugin.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/gzip.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/gzip.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/matchparen.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/matchparen.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/netrwPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/netrwPlugin.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/rrhelper.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/rrhelper.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/spellfile.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/spellfile.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/tarPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/tarPlugin.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/tohtml.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/tohtml.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/vimballPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/vimballPlugin.vim
+chdir(/usr/local/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/share/vim/vim74/plugin/zipPlugin.vim"
+finished sourcing /usr/local/share/vim/vim74/plugin/zipPlugin.vim
+Searching for "/usr/local/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/root/.vim/after/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/Vundle.vim/after/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/vim-fugitive/after/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/L9/after/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/command-t/after/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/plugin/after/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/sparkup/vim//after/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/newL9/after/plugin/**/*.vim"
+Searching for "/root/.vim/bundle/YouCompleteMe/after/plugin/**/*.vim"
+Reading viminfo file "/root/.viminfo" info oldfiles
+Opening the X display failed
+Executing BufWinEnter Auto commands for "*"
+autocommand if s:can_diffoff(+expand('<abuf>')) && s:diff_window_count() == 1 |   call s:diffoff() | endif
+
+Executing BufEnter Auto commands for "*"
+autocommand sil! call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand if expand('<amatch>')==''|call fugitive#detect(getcwd())|endif
+
+Executing User Auto commands for "Fugitive"
+autocommand call s:define_commands()
+
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().commit() =~# '^0\=$' | exe "command! -buffer -bar -bang -nargs=1 -complete=customlist,s:MoveComplete Gmove :execute s:Move(<bang>0,<q-args>)" | exe "command! -buffer -bar -bang Gremove :execute s:Remove(<bang>0)" | endif
+
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().type('file', 'blob') | exe "command! -buffer -bar -bang -range=0 -nargs=* Gblame :execute s:Blame(<bang>0,<line1>,<line2>,<count>,[<f-args>])" | endif
+
+Executing User Auto commands for "Fugitive"
+autocommand if &filetype =~# '^git\%(commit\)\=$' && &foldtext ==# 'foldtext()' |    set foldtext=fugitive#foldtext() | endif
+
+Executing VimEnter Auto commands for "*"
+autocommand sil! call s:VimEnter(expand("<amatch>"))
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+Executing BufWinLeave Auto commands for "*"
+autocommand execute getwinvar(+bufwinnr(+expand('<abuf>')), 'fugitive_leave')
+
+Executing BufWinLeave Auto commands for "*"
+autocommand if s:can_diffoff(+expand('<abuf>')) && s:diff_window_count() == 2 |   call s:diffoff_all(getbufvar(+expand('<abuf>'), 'git_dir')) | endif
+
+Writing viminfo file "/root/.viminfo"
