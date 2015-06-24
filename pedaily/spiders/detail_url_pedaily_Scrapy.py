@@ -25,6 +25,89 @@ class pedaily(Spider):
         self.__class__.start_urls.append(start_url)
 
     def parse(self, response):
+        """
+        extract the total pages
+        """
+        sel = response.selector
+        try:
+            total_page = sel.xpath("//div[@class='page-list page']/a[5]/text()").extract()
+        except Exception,e:
+            log.msg("message={m},url={url}".format(m=e, url=response.url),level=log.ERROR)
+        for i in xrange(1, int(total_page)+1):
+            yield Request(url+str(i)+"/", callback=self.extract_url, dont_filter=True)
+
+    def extract_url(self, response):
+        """
+        extract url of detail information
+        """
+        sel = response.selector
+        detail_url = sel.xpath(u"//table//a[text()='详情']/@href").extract()
+        base_url = "http://zdb.pedaily.cn"
+        try:
+            detail_url = [base_url+url for url in detail_url]
+        except Exception,e:
+            log.msg("message={m},url={url}".format(m=e, url=response.url),level=log.ERROR)
+        for url in detail_url:
+            yield Request(url, callback=self.extract_detail, dont_filter=True)
+
+
+    def for_ominated_data(self,info_list,i_list):
+        """
+        some elements are ominated, set the ominated elements
+        as "" 
+        """
+        try:
+            if len(i_list) == 0:
+                i_list.append("")
+            else:
+                pass
+            assert len(i_list) == 1, "the element must be unique"
+            info_list.extend(i_list)
+            # print 'you work'
+            return info_list
+        except Exception, e:
+            print 'i work'
+            log.msg(e, level=log.ERROR)
+
+
+    def extract_detail(self, response):
+        """
+        extract detail information
+        """
+        sel = response.selector
+        info = []
+        inv_event = sel.xpath("//div[@class='news-show']/h1/text()").extract()     #投资事件
+        info = self.for_ominated_data(info, inv_event)
+        date = sel.xpath("//b[text()='投资时间：']/../text()").extract() #投资时间
+        info = self.for_ominated_data(info, date)
+        inv_party = sel.xpath(u"//b[text()='投 资 方：']/following-sibling::*/text()").extract()   #投资方
+        info = self.for_ominated_data(info, inv_party)
+        funded_party = sel.xpath(u"//b[text()='受 资 方：']/following-sibling::*/text()").extract()   #受资方
+        info = self.for_ominated_data(info, funded_party)
+        turn = sel.xpath("//b[text()='轮    次：']/../text()").extract() #轮次
+        info = self.for_ominated_data(info, turn)
+        try:
+            ind_classi = sel.xpath(u"//b[text()='行业分类：']/following-sibling::*/text()").extract()
+            ind_classi_join = []
+            ind_classi_join.append('>'.join(ind_classi))
+            info = self.for_ominated_data(info, ind_classi_join)
+        except Exception, e:
+            log.msg("message={m},url={url}".format(m=e, url=response.url),level=log.ERROR)
+        fund = sel.xpath(u"//b[text()='金    额：']/../text()").extract()
+        info = self.for_ominated_data(info, fund)
+        intro = sel.xpath(u"//b[text()='案例介绍：']/../following-sibling::p[1]/text()").extract()
+        info = self.for_ominated_data(info, intro)
+
+        try:
+            info = '\001'.join(info)
+            item['content'] = info
+            yield item
+        except Exception, e:
+            log.msg('content:{content}, url={url}'.format(content=info, url=response.url), level=log.ERROR)
+
+
+
+
 
 
 
