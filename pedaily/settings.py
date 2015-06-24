@@ -29,7 +29,7 @@ REDIS_PORT = 6379
 REDIS_STORAGE_HOST = '10.5.13.22'
 REDIS_STORAGE_PORT = 6379
 
-SCHEDULER = 'pedaily.scray_redis.scheduler.Scheduler'
+SCHEDULER = 'pedaily.scrapy_redis.scheduler.Scheduler'
 
 SCHEDULER_PERSIST = True
 

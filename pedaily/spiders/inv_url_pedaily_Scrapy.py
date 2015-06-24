@@ -17,6 +17,9 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 
 class pedaily(Spider):
+    """
+    usage: scrapy crawl pedaily_list -a redis_key='your_key' -a start_url='http://zdb.pedaily.cn/inv/1/'
+    """
     name = "pedaily_list"
     start_urls = []
     myRedis = redis.StrictRedis(host='localhost',port=6379)
@@ -33,6 +36,7 @@ class pedaily(Spider):
             total_page = sel.xpath("//div[@class='page-list page']/a[3]/text()").extract()[0]
         except Exception,e:
             log.msg("message={m},url={url}".format(m=e, url=response.url),level=log.ERROR)
+        url = response.url[:-2]
         for i in range(1, int(total_page)+1)[0:1]:
             yield Request(url+str(i)+"/", callback=self.extract_url, dont_filter=True)
 

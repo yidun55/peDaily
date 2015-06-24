@@ -5,10 +5,13 @@
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+import scrapy.item import Item, Field
 
 
-class PedailyItem(scrapy.Item):
+class PedailyItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    content = Field()
+
+class GubaPostListItem(Item):
     pass

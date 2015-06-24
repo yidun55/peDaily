@@ -1,55 +1,30 @@
 #coding: utf-8
 
 """
-  从投资界上爬取投资事件等数据
-  auther: bill_cpp
-  email:bill_cpp@sina.com
-  date:2015/6/23
+  从redis上读取url,请求，解析出目标数据
+  auther:yidun55
+  email:heshang1203@sina.com
+  date:2015/06/24
 """
 
-from scrapy.spider import Spider
-from scrapy.http import Request
 from scrapy import log
-import redis
+from scrapy.http import Request
+from scrapy.conf import settings
+from scrapy.spider import Spider
+from pedaily.items import *
+
+from pedaily.scrapy_redis.spiders import RedisSpider
 
 import sys
+
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-class pedaily(Spider):
-    name = "pedaily_list"
-    start_urls = []
-    myRedis = redis.StrictRedis(host='localhost',port=6379)
-    def __init__(self,redis_key,start_url):
-        self.redis_key = redis_key
-        self.__class__.start_urls.append(start_url)
-
-    def parse(self, response):
-        """
-        extract the total pages
-        """
-        sel = response.selector
-        try:
-            total_page = sel.xpath("//div[@class='page-list page']/a[5]/text()").extract()
-        except Exception,e:
-            log.msg("message={m},url={url}".format(m=e, url=response.url),level=log.ERROR)
-        for i in xrange(1, int(total_page)+1):
-            yield Request(url+str(i)+"/", callback=self.extract_url, dont_filter=True)
-
-    def extract_url(self, response):
-        """
-        extract url of detail information
-        """
-        sel = response.selector
-        detail_url = sel.xpath(u"//table//a[text()='详情']/@href").extract()
-        base_url = "http://zdb.pedaily.cn"
-        try:
-            detail_url = [base_url+url for url in detail_url]
-        except Exception,e:
-            log.msg("message={m},url={url}".format(m=e, url=response.url),level=log.ERROR)
-        for url in detail_url:
-            yield Request(url, callback=self.extract_detail, dont_filter=True)
-
+class pedaily(RedisSpider):
+    #download_delay=2
+    writeInFile = 'investment_event_list'
+    name = 'inv_detail_list'
+    redis_key = 'pedaily_detail_url'
 
     def for_ominated_data(self,info_list,i_list):
         """
@@ -66,11 +41,10 @@ class pedaily(Spider):
             # print 'you work'
             return info_list
         except Exception, e:
-            print 'i work'
-            log.msg(e, level=log.ERROR)
+            log.msg('i work {m} info = {info}'.format(m=e, info='\001'.join(info_list)), level=log.ERROR)
 
 
-    def extract_detail(self, response):
+    def parse(self, response):
         """
         extract detail information
         """
@@ -78,13 +52,18 @@ class pedaily(Spider):
         info = []
         inv_event = sel.xpath("//div[@class='news-show']/h1/text()").extract()     #投资事件
         info = self.for_ominated_data(info, inv_event)
-        date = sel.xpath("//b[text()='投资时间：']/../text()").extract() #投资时间
+        date = sel.xpath(u"//b[text()='投资时间：']/../text()").extract() #投资时间
         info = self.for_ominated_data(info, date)
         inv_party = sel.xpath(u"//b[text()='投 资 方：']/following-sibling::*/text()").extract()   #投资方
-        info = self.for_ominated_data(info, inv_party)
+        try:
+            inv_party_join = []
+            inv_party_join.append("/".join(inv_party))
+            info = self.for_ominated_data(info, inv_party_join)
+        except Exception, e:
+            log.msg("inv_party={m},url={url}".format(m=e,url=response.url),level=log.ERROR)
         funded_party = sel.xpath(u"//b[text()='受 资 方：']/following-sibling::*/text()").extract()   #受资方
         info = self.for_ominated_data(info, funded_party)
-        turn = sel.xpath("//b[text()='轮    次：']/../text()").extract() #轮次
+        turn = sel.xpath(u"//b[text()='轮    次：']/../text()").extract() #轮次
         info = self.for_ominated_data(info, turn)
         try:
             ind_classi = sel.xpath(u"//b[text()='行业分类：']/following-sibling::*/text()").extract()
@@ -97,17 +76,12 @@ class pedaily(Spider):
         info = self.for_ominated_data(info, fund)
         intro = sel.xpath(u"//b[text()='案例介绍：']/../following-sibling::p[1]/text()").extract()
         info = self.for_ominated_data(info, intro)
-
+        
+        item = PedailyItem()
         try:
             info = '\001'.join(info)
             item['content'] = info
             yield item
         except Exception, e:
             log.msg('content:{content}, url={url}'.format(content=info, url=response.url), level=log.ERROR)
-
-
-
-
-
-
 
