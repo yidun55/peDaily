@@ -21,7 +21,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 
 class pedaily(RedisSpider):
-    #download_delay=2
+    download_delay=1
     writeInFile = 'investment_event_list'
     name = 'inv_detail_list'
     redis_key = 'pedaily_detail_url'

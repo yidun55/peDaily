@@ -88,7 +88,7 @@ class pedaily(RedisSpider):
         x = x1 + x2 + x3
         fund = sel.xpath(x).extract()
         info = self.for_ominated_data(info, fund)
-        intro = sel.xpath(u"//b[text()='案例介绍：']/../following-sibling::p[1]/text()").extract()
+        intro = sel.xpath(u"//b[text()='案例介绍：']/../following-sibling::p[1]/text()").extract()[0:1]  #有些事件会提取一个分隔符
         info = self.for_ominated_data(info, intro)
         
         item = PedailyItem()
