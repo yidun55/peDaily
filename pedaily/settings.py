@@ -15,7 +15,7 @@ NEWSPIDER_MODULE = 'pedaily.spiders'
 
 DEFAULT_ITEM_CLASS='pedaily.items.PedailyItem'
 
-LOG_FILE='/root/dyh/data/pedaily/loginv_error_redo'
+LOG_FILE='/root/dyh/data/pedaily/log_enterprise'
 
 DOWNLOAD_TIMEOUT = 180
 
